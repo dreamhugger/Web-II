@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    font-weight: 300;
+}
+
+header {
+    position: sticky;
+    box-sizing: border-box;
+    padding-bottom: 3.2rem;
+    padding-top: 3.2rem;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 13.88%;
+    background: #D38CFF;
+    border-bottom: 1px solid #000000;
+}
+.index {
+    display: flex;
+    justify-content: space-evenly;
+}
+header a {
+    position: relative;
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.motivtext {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.tastetext {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 1.5%;
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+}
+
+.music {
+    display: grid;
+    width: 40%;
+    row-gap: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    padding: 1rem;
+    background: #FFEA7D;
+    border-top: 1px solid #000000;
+}
+footer p {
+    position: relative;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+a:hover {
+    background-color: #D38CFF;
+}
+
+img {
+    max-width: 25vw;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.titulo p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.perfil img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border: solid #000000 1px;
+}
+
+iframe {
+    margin: 1.5%;
+}
+
+#ultimo {
+    padding-top: 4%;
+    text-align: center;
+}
+
+.musique {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.nit {
+    padding-left: 30%;
+    padding-top: 2%;
+}
+
+.disco {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 1.5%;
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+button {
+    margin: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 15%;
+}
+
+#html {
+    background-color: #FFB168;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#css {
+    background-color: #8ED6FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#js {
+    background-color: #FFEA7D;
+    color: #000000;
+    border: none;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#python {
+    background-color: #7DB1FF;
+    color: #FFEA7D;
+    border: none;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#github {
+    border: none;
+    border-radius: 5px;
+    background-color: #342E2E;
+    font-style: italic;
+}
+
+#instagram {
+    border: none;
+    border-radius: 5px;
+    background-color: #FF6099;
+    font-style: italic;
+}
+
+#soundcloud {
+    border: none;
+    border-radius: 5px;
+    background-color: #FF9A51;
+    font-style: italic;
+}
+
+#youtube {
+    border: none;
+    border-radius: 5px;
+    background-color: #FF3A3A;
+    font-style: italic;
+}
+
+#spotify {
+    border: none;
+    border-radius: 5px;
+    background-color: #35902D;
+    font-style: italic;
+}
+
+button a {
+    color: #FFFFFF;
+}
+
+button a:hover {
+    background-color: inherit;
+}
+
+.vic {
+    padding-left: 3%;
+}
+
+.vic img {
+    border: #000000 solid 1px;
+}
+
+.textinho {
+    padding-right: 25%;
+}
+
+.vivi {
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 15%;
+}
+
+.vivi p {
+    padding-bottom: 2%;
+}
