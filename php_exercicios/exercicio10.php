@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title></title>
+    <title>Par ou ímpar</title>
     <meta charset="utf-8">
 </head>
 <body>
@@ -16,10 +16,10 @@
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $num = $_POST['num'];
         echo "<hr/>";
-        if ($num%2==0) {
-            echo "<p>Esse número é par.</p>"
+        if ($num % 2 == 0) {
+            echo "<p>Esse número é par.</p>";
         } else {
-            echo "<p>Esse número é ímpar.</p>"
+            echo "<p>Esse número é ímpar.</p>";
         }
     }
 ?>
