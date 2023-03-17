@@ -28,11 +28,14 @@
         echo "<hr/>";
         if ($A + $B > $C && $A + $C > $B && $B + $C > $A) {
             if ($A == $B && $A == $C) {
+                echo "<img src='img/equilatero.png'/> <br/>";
                 echo "É um triângulo equilátero.";
             } else if ($A != $B && $A != $C && $B != $C) {
+                echo "<img src='img/escaleno.png'/> <br/>";
                 echo "É um triângulo escaleno.";
             } else {
-                echo "É um triângulo isósceles";
+                echo "<img src='img/isosceles.png'/> <br/>";
+                echo "É um triângulo isósceles";            
             }
         } else {
             echo "Estas medidas não formam um triângulo.";
